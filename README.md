@@ -6,6 +6,7 @@ All you need is a python environment.
 No special packages are required.
 
 An easy way to manage virtual python environments is to use Anaconda: https://docs.anaconda.com/anaconda/install/index.html
+It is not required to have Anaconda installed, the default python environment should be sufficient.
 
 ## Usage
 
