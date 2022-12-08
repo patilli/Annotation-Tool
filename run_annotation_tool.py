@@ -4,7 +4,7 @@ def main():
     tool = AnnotationTool()
     while True:
         #print("Please choose one of the following options: \n1) get random samples \n2) check if a word is inside the dataset \n3) check for an attribute given an object \n4) check for a predicate given an object \n5) check for a predicate given a subject")
-        print("Please choose one of the following options: \n1) get random samples \n2) check if a word is inside the dataset")
+        print("Please choose one of the following options: \n1) get random samples \n2) check if a word is inside the dataset \n3) check for body parts that should be excluded")
         option = input("Option: ")
         if option == '1':
             tool.get_random_samples()

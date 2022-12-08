@@ -15,6 +15,7 @@ class AnnotationTool:
         self.obj_to_attr_counts = json.load(open('./data/obj_to_attr_counts.json'))
         self.pred_to_obj_counts = json.load(open('./data/pred_to_obj_counts.json'))
         self.pred_to_subj_counts = json.load(open('./data/pred_to_subj_counts.json'))
+        self.body_parts = json.load(open('./data/body_parts.json'))
 
     def get_random_samples(self, k=5):
         print(f'Objects:    {random.choices(self.objects ,k=k)}')
