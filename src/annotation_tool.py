@@ -21,10 +21,11 @@ class AnnotationTool:
         print(f'Attributes: {random.choices(self.attributes ,k=k)}')
         print(f'Predicates: {random.choices(self.relations ,k=k)}')
 
-    def validate_input(self, input):
-        print(f'Input in objects:    {input in self.objects}')
-        print(f'Input in attributes: {input in self.attributes}')
-        print(f'Input in relations:  {input in self.relations}')
+    def validate_input(self):
+        word = input("Please enter a word: ")
+        print(f'Input in objects:    {word in self.objects}')
+        print(f'Input in attributes: {word in self.attributes}')
+        print(f'Input in relations:  {word in self.relations}')
     
     def check_obj_to_attribute(self):
         obj = input("Please insert the object: ")
